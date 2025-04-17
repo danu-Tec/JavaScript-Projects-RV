@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio | Danu</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="portfolio.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-success">
+    <div class="container">
+      <a class="navbar-brand" href="#">Danu</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="py-5 text-center theme-blue" id="hero">
+    <div class="container">
+      <img src="https://picsum.photos/id/25/367/267" alt="Profile photo of Danu" class="rounded-circle mb-4 profile-img">
+      <h1 class="display-4">Hi, I'm Danu</h1>
+      <p class="lead">Frontend Developer crafting clean and responsive web experiences.</p>
+    </div>
+  </header>
+
+  <!-- About Section -->
+  <section id="about" class="py-5 theme-orange">
+    <div class="container">
+      <h2 class="mb-4">About Me</h2>
+      <p>I am a frontend developer with expertise in HTML, CSS, JavaScript, and Bootstrap. I enjoy building user-friendly interfaces and responsive websites that bring ideas to life.</p>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="py-5 theme-blue">
+    <div class="container">
+      <h2 class="mb-4">Projects</h2>
+      <div class="row">
+        <!-- Example Projects -->
+        <div class="col-md-6 mb-4">
+          <div class="card h-100">
+            <div class="card-body">
+              <h5 class="card-title">Portfolio Website</h5>
+              <p class="card-text">A personal website built using Bootstrap 5 to showcase my work and skills.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 mb-4">
+          <div class="card h-100">
+            <div class="card-body">
+              <h5 class="card-title">Responsive Blog Layout</h5>
+              <p class="card-text">A mobile-first blog template created using Bootstrap grid system and utilities.</p>
+            </div>
+          </div>
+        </div>
+        <!-- Additional Hypothetical Projects -->
+        <div class="col-md-6 mb-4">
+          <div class="card h-100">
+            <div class="card-body">
+              <h5 class="card-title">E-Commerce UI</h5>
+              <p class="card-text">Designed and implemented a shopping interface with Bootstrap and JavaScript.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 mb-4">
+          <div class="card h-100">
+            <div class="card-body">
+              <h5 class="card-title">Weather Dashboard</h5>
+              <p class="card-text">Built a real-time weather app using OpenWeatherMap API and Bootstrap cards.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 mb-4">
+          <div class="card h-100">
+            <div class="card-body">
+              <h5 class="card-title">Task Manager</h5>
+              <p class="card-text">A task list app built with vanilla JavaScript and styled with Bootstrap.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 mb-4">
+          <div class="card h-100">
+            <div class="card-body">
+              <h5 class="card-title">Startup Landing Page</h5>
+              <p class="card-text">Landing page for a fictional startup using Bootstrap utilities and icons.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 mb-4">
+          <div class="card h-100">
+            <div class="card-body">
+              <h5 class="card-title">Interactive Quiz</h5>
+              <p class="card-text">A dynamic multiple choice quiz with JavaScript interactivity and Bootstrap layout.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 mb-4">
+          <div class="card h-100">
+            <div class="card-body">
+              <h5 class="card-title">Photography Portfolio</h5>
+              <p class="card-text">A gallery-style site showcasing high-resolution photography using Bootstrap grid.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Gallery Section -->
+<section id="gallery" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="mb-4 text-center">Gallery</h2>
+      <div class="row g-4">
+        <!-- Image 1 -->
+        <div class="col-sm-6 col-md-4 col-lg-3">
+          <img src="https://picsum.photos/id/6/367/267" class="img-fluid rounded shadow-sm gallery-img" alt="Gallery Image 1" data-bs-toggle="modal" data-bs-target="#imageModal" data-bs-src="gallery/image1.jpg">
+        </div>
+        <!-- Image 2 -->
+        <div class="col-sm-6 col-md-4 col-lg-3">
+          <img src="https://picsum.photos/id/8/367/267" class="img-fluid rounded shadow-sm gallery-img" alt="Gallery Image 2" data-bs-toggle="modal" data-bs-target="#imageModal" data-bs-src="gallery/image2.jpg">
+        </div>
+        <!-- Image 3 -->
+        <div class="col-sm-6 col-md-4 col-lg-3">
+            <img src="https://picsum.photos/id/20/367/267" class="img-fluid rounded shadow-sm gallery-img" alt="Gallery Image 3" data-bs-toggle="modal" data-bs-target="#imageModal" data-bs-src="gallery/image1.jpg">
+          </div>
+          <!-- Image 4 -->
+        <div class="col-sm-6 col-md-4 col-lg-3">
+            <img src="https://picsum.photos/id/26/367/267" class="img-fluid rounded shadow-sm gallery-img" alt="Gallery Image 4" data-bs-toggle="modal" data-bs-target="#imageModal" data-bs-src="gallery/image1.jpg">
+          </div>
+        <!-- Add more as needed -->
+      </div>
+    </div>
+  </section>
+  
+  <!-- Modal for Enlarged Image -->
+  <div class="modal fade" id="imageModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content bg-dark">
+        <div class="modal-body p-0">
+          <img src="" class="w-100" id="modalImage" alt="Enlarged Gallery Image">
+        </div>
+      </div>
+    </div>
+  </div>
+  
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-5 theme-orange">
+    <div class="container">
+      <h2 class="mb-4">Contact</h2>
+      <form id="contactForm">
+        <div class="mb-3">
+          <label for="name" class="form-label">Name</label>
+          <input type="text" class="form-control" id="name" required>
+        </div>
+        <div class="mb-3">
+          <label for="email" class="form-label">Email</label>
+          <input type="email" class="form-control" id="email" required>
+        </div>
+        <div class="mb-3">
+          <label for="message" class="form-label">Message</label>
+          <textarea class="form-control" id="message" rows="4" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Send</button>
+      </form>
+
+      <!-- Social Media Links -->
+      <div class="mt-4">
+        <h5>Connect with me:</h5>
+        <a href="https://www.linkedin.com" class="me-3 text-dark" target="_blank"><i class="fab fa-linkedin fa-lg"></i></a>
+        <a href="https://github.com" class="me-3 text-dark" target="_blank"><i class="fab fa-github fa-lg"></i></a>
+        <a href="https://www.instagram.com" class="me-3 text-dark" target="_blank"><i class="fab fa-instagram fa-lg"></i></a>
+        <a href="https://www.facebook.com" class="me-3 text-dark" target="_blank"><i class="fab fa-facebook fa-lg"></i></a>
+        <a href="https://www.x.com" class="me-3 text-dark" target="_blank"><i class="fab fa-x fa-lg"></i></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-success text-dark text-center py-3">
+    <div class="container">
+      <p class="mb-0">&copy; 2025 Danu. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- JavaScript Includes -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="portfolio.js"></script>
+</body>
+</html>

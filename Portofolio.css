@@ -1,0 +1,64 @@
+/* Portfolio Theme Styles */
+  /* Profile image styling */
+  .profile-img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border: 5px solid #fff;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Card hover effect */
+  .card:hover {
+    transform: translateY(-5px);
+    transition: transform 0.3s ease;
+  }
+  
+  /* Social media icon hover effect */
+  #contact a i:hover {
+    color: #007bff; /* Light Blue */
+    transition: color 0.3s;
+  }
+  
+  /* Responsive spacing */
+  @media (max-width: 576px) {
+    .profile-img {
+      width: 120px;
+      height: 120px;
+    }
+  }
+  
+  /* Hero Section styling for better contrast */
+  #hero {
+    background-color: #afda91; /* some green */
+    color: #000000; /* black text */
+    padding: 60px 0;
+  }
+  
+  #hero .profile-img {
+    border: 1px solid #ffffff; /* White border for profile image */
+  }
+  
+  /* Contact Section background */
+  #contact {
+    background-color: #afda91; /* some green */
+    color: #000000; /* black text */
+    padding: 60px 0;
+  }
+  
+  #contact a {
+    color: #f8f9fa; /* Light text for social links */
+  }
+  
+  #contact a:hover {
+    color: #00bcd4; /* Hover effect color */
+    transition: color 0.3s;
+  }
+  /* Gallery image hover effect */
+.gallery-img {
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+  .gallery-img:hover {
+    transform: scale(1.05);
+  }
